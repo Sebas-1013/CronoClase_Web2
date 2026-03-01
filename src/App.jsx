@@ -1,36 +1,18 @@
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css'
 import InicioSesion from './pages/InicioSesion'
 import { MainView } from './pages/MainView'
 
 function App() {
-  const [user, setUser] = useState(null)
 
-  useEffect(() => {
-    const raw = localStorage.getItem('crono_current_user')
-    if (raw) setUser(JSON.parse(raw))
-  }, [])
+  const [showCalendar, setShowCalendar] = useState(false)
 
-  const handleLogin = (u) => {
-    setUser(u)
+  if (showCalendar) {
+    return <MainView />
   }
 
-  const handleLogout = () => {
-    localStorage.removeItem('crono_current_user')
-    setUser(null)
-  }
-
-  if (!user) return <InicioSesion onLogin={handleLogin} />
-
-  return (
-    <>
-      <div style={{ display: 'flex', justifyContent: 'flex-end', padding: 10 }}>
-        <button className="btn btn-sm btn-outline-secondary" onClick={handleLogout}>Cerrar sesión</button>
-      </div>
-      <MainView />
-    </>
-  )
+  return <InicioSesion onEnter={() => setShowCalendar(true)} />
 }
 
 export default App
