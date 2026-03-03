@@ -1,16 +1,59 @@
-# React + Vite
+# Descripción del Proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CronoClase_Web2 es una aplicación web diseñada para gestionar horarios y actividades académicas de manera eficiente. Este proyecto utiliza React y Vite para ofrecer una experiencia de usuario rápida y moderna.
 
-Currently, two official plugins are available:
+## Requisitos del Entorno y Versiones de Software
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para garantizar que el proyecto se ejecute correctamente en cualquier entorno, asegúrate de tener las siguientes versiones de software instaladas:
 
-## React Compiler
+- **Node.js**: 18.x o superior
+- **npm**: 9.x o superior
+- **Vite**: 4.x o superior
+- **React**: 18.x o superior
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## Pasos para Configurar el Proyecto Localmente
 
-## Expanding the ESLint configuration
+Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clonar el repositorio**:
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   ```
+
+2. **Navegar al directorio del proyecto**:
+   ```bash
+   cd CronoClase_Web2
+   ```
+
+3. **Instalar dependencias**:
+   ```bash
+   npm install
+   ```
+
+4. **Iniciar el servidor de desarrollo**:
+   ```bash
+   npm run dev
+   ```
+
+5. **Abrir el proyecto en el navegador**:
+   El servidor de desarrollo estará disponible en `http://localhost:5173` (o el puerto indicado en la terminal).
+
+6. **Compilar para producción** (opcional):
+   ```bash
+   npm run build
+   ```
+
+   Los archivos compilados estarán disponibles en el directorio `dist/`.
+
+## Tabla de Autores
+
+| Nombre              | Usuario de GitHub       |
+|---------------------|-------------------------|
+| Paula Gil           | [@GGP113](https://github.com/GGP113) |
+| Irwin Colmenarez    | [@irwincol](https://github.com/irwincol) |
+| Carlos Martinez     | [@CMARTINEZ-95](https://github.com/CMARTINEZ-95) |
+| Estiben Manco       | [@Estibenmanco31](https://github.com/Estibenmanco31) |
+| Victor Berrio       | [@Vastrocode72](https://github.com/Vastrocode72) |
+| Sebastian Hernandez | [@Sebas-1013](https://github.com/Sebas-1013) |
+
+---
