@@ -1,5 +1,6 @@
 import "../styles/PanelCargaActividades.css";
 import { PanelMomento } from "../components/PanelMomento";
+import { Footer } from "../components/Footer";
 
 
 export function PanelCargaActividades (){
@@ -11,8 +12,9 @@ export function PanelCargaActividades (){
                     <PanelMomento />
                     <PanelMomento />
              </div>
-    
+        
         </main>
+
      
     );
 }
