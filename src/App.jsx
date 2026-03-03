@@ -1,7 +1,8 @@
 
+import { useState } from 'react'
 import './App.css'
+import InicioSesion from './pages/InicioSesion'
 import { MainView } from './pages/MainView'
-import { PanelCargaActividades } from './pages/PanelCargaActividades'
 
 
 function App() {
@@ -10,8 +11,7 @@ function App() {
   return (
     <>
 
-    {/* <MainView/> */}
-    <PanelCargaActividades/>
+    <MainView/>
      
     </>
   )
