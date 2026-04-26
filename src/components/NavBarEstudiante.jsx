@@ -12,6 +12,7 @@ import { redirectAlert } from "../helpers/alerts";
 export default function NavBarEstudiante() {
   const stored = getLocalStorage("estudiante");
   let userEstudiante = null;
+
   try {
     userEstudiante = stored ? JSON.parse(stored) : null;
   } catch (e) {
@@ -56,4 +57,3 @@ export default function NavBarEstudiante() {
     </nav>
   );
 }
-
