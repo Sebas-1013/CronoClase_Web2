@@ -45,5 +45,5 @@ export let appRouter2 = [
         element: <MainView />},
 
     {path: "/panel-materias",
-        element: <PageMaterias/>}    
+        element: <PageMaterias/>} 
 ]

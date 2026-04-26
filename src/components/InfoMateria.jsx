@@ -35,7 +35,7 @@ export default function InfoMateria({ nombre, descripcion, evaluaciones = [], on
 
         <div className="materia-footer-actions">
           <button className="btn-cargar" onClick={handleEntrega}>
-            Entregar
+            Entregar.
           </button>
           <BotonFormularioEntrega onClick={handleEntrega} />
         </div>

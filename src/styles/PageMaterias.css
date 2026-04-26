@@ -9,7 +9,7 @@
 
 .page-title {
 	font-size: 2.2rem;
-	color: #493d9e;
+	color: #4c40a1;
 	margin: 0;
 }
 
@@ -22,7 +22,7 @@
 	align-items: start;
 }
 
-/* Make each grid cell share the same row height so cards match */
+/* Make each grid cell share the same row height soo cards match */
 .materias-grid {
 	align-items: stretch;
 	grid-auto-rows: 1fr;
