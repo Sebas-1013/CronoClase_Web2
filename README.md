@@ -2,6 +2,8 @@
 
 CronoClase_Web2 es una aplicación web diseñada para gestionar horarios y actividades académicas de manera eficiente. Este proyecto utiliza React y Vite para ofrecer una experiencia de usuario rápida y moderna.
 
+# NOTA: Para el ingreso en el LogIn de estudiante, el correo corresponde al correo del estudiante y la contraseña es el documentoID del estudiante. Los datos para ingresar se encuentran en la carpeta data, archivo estudiantes.json
+
 ## Requisitos del Entorno y Versiones de Software
 
 Para garantizar que el proyecto se ejecute correctamente en cualquier entorno, asegúrate de tener las siguientes versiones de software instaladas:
