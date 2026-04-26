@@ -1,0 +1,46 @@
+.page-materias-container {
+	flex: 1;
+	padding: 7.5rem 1rem 2rem 1rem; /* deja espacio para la navbar fija */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.page-title {
+	font-size: 2.2rem;
+	color: #4c40a1;
+	margin: 0;
+}
+
+.materias-grid {
+	width: 100%;
+	max-width: 1100px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.25rem;
+	align-items: start;
+}
+
+/* Make each grid cell share the same row height soo cards match */
+.materias-grid {
+	align-items: stretch;
+	grid-auto-rows: 1fr;
+}
+
+@media (max-width: 1024px) {
+	.materias-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 640px) {
+	.materias-grid {
+		grid-template-columns: 1fr;
+		padding: 0 0.5rem;
+	}
+
+	.page-title {
+		font-size: 1.6rem;
+	}
+}

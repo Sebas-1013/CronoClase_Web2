@@ -16,7 +16,7 @@ export default function PageMaterias() {
 			<NavBarEstudiante />
 
 			<main className="page-materias-container">
-				<h1 className="page-title">Mis Materias</h1>
+				<h1 className="page-title">Mis Materias.</h1>
 
 				<section className="materias-grid">
 					{materias.map((m) => (

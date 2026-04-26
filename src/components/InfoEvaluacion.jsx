@@ -16,7 +16,7 @@ export default function InfoEvaluacion({ items = [] }) {
       {open && (
         <div style={{ marginTop: 8 }}>
           {items.length === 0 ? (
-            <p>No hay evaluaciones cargadas.</p>
+            <p>No existen evaluaciones cargadas.</p>
           ) : (
             <ul>
               {items.map((it, i) => (

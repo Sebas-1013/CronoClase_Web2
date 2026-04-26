@@ -1,0 +1,41 @@
+/* Basic styles for materia cards and buttons */
+.materia-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.materia-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.materia-actions .momento-btn {
+  background: transparent;
+  border: 1px solid #ddd;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+.materia-content { margin-top: 0.75rem; }
+
+.materia-desc { color: #374151; }
+
+.materia-footer { display:flex; justify-content:space-between; align-items:center; margin-top:1rem; }
+
+.materia-footer-actions { display:flex; gap:0.5rem; }
+
+.btn-cargar, .btn-formulario-entrega {
+  background: #5049e6;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-formulario-entrega { background: #10b981; }
