@@ -64,6 +64,7 @@ export default function LogIn({ onLogin }) {
 
           <div className="d-flex gap-2">
             <button
+            
               className="btn btn-primary w-100 py-2 buttCrono"
               type="submit"
             >
