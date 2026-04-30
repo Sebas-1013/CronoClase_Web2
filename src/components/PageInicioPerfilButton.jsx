@@ -4,12 +4,12 @@ import "../styles/Buttons.css";
 export function PageInicioPerfilButton() {
   return (
     <div className="button-container">
-      <button className="button">
+      <a href ="inicio-sesion-estudiante"  className="button">
         Estudiante
-      </button>
-      <button className="button">
+      </a>
+      <a href="inicio-sesion-profesor" className="button">
         Profesor
-      </button>
+      </a>
     </div>
   );
 }
